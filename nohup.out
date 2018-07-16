@@ -1,0 +1,12 @@
+[cnn] random seed: 3311700068
+[cnn] allocating memory: 1700MB
+[cnn] memory allocation done.
+COMMAND LINE: build/nt-parser/nt-parser -x -T ./data/train.oracle -d ./data/dev.oracle -C ./data/dev.ptb -P -t --pretrained_dim 300 -w 300 --lstm_input_dim 128 --hidden_dim v128 -D 0.2
+terminate called after throwing an instance of 'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::program_options::invalid_option_value> >'
+  what():  the argument ('v128') for option '--hidden_dim' is invalid
+[cnn] random seed: 894676594
+[cnn] allocating memory: 1700MB
+[cnn] memory allocation done.
+COMMAND LINE: build/nt-parser/nt-parser -x -T ./data/train.oracle -d ./data/dev.oracle -C ./data/dev.ptb -P -t --pretrained_dim 300 -w 300 --lstm_input_dim 128 --hidden_dim v128 -D 0.2
+terminate called after throwing an instance of 'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::program_options::invalid_option_value> >'
+  what():  the argument ('v128') for option '--hidden_dim' is invalid
